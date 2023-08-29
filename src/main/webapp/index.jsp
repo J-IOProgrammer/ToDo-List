@@ -13,11 +13,31 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="CSS/Images/welcome.png">
+    <link rel="stylesheet" href="CSS/index-style.css">
 </head>
-<body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<body class="d-flex justify-content-center align-items-center">
+
+<%--<h1><%= "Hello World!" %>--%>
+<%--</h1>--%>
+<%--<br/>--%>
+<%--<a href="hello-servlet">Hello Servlet</a>--%>
+
+<div class="container my-5 p-5 w-75 justify-content-center align-items-center">
+    <div class="container p-4 col-4 w-100 d-flex justify-content-center align-items-center">
+        <button type="button" class="btn btn-primary my-4 w-75 btn-lg btn-block">
+            <i class="bi-door-open"></i>
+            Sign In
+        </button>
+    </div>
+
+    <div class="container p-4 col-4 w-100 d-flex justify-content-center align-items-center">
+        <button type="button" class="btn btn-secondary my-4 w-75 btn-lg btn-block">
+            <i class="bi-box-arrow-in-right"></i>
+            Sign Up
+        </button>
+    </div>
+</div>
+
 </body>
 </html>
