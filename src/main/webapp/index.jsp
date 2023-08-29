@@ -25,17 +25,16 @@
 
 <div class="container my-5 p-5 w-75 justify-content-center align-items-center">
     <div class="container p-4 col-4 w-100 d-flex justify-content-center align-items-center">
-        <button type="button" class="btn btn-primary my-4 w-75 btn-lg btn-block">
+        <a href="sign-in.jsp" type="button" class="btn btn-primary my-4 w-75 btn-lg btn-block" aria-pressed="true">
             <i class="bi-door-open"></i>
-            Sign In
-        </button>
+            Sign In</a>
     </div>
 
     <div class="container p-4 col-4 w-100 d-flex justify-content-center align-items-center">
-        <button type="button" class="btn btn-secondary my-4 w-75 btn-lg btn-block">
+        <a href="sign-in.jsp" type="button" class="btn btn-secondary my-4 w-75 btn-lg btn-block" aria-pressed="true">
             <i class="bi-box-arrow-in-right"></i>
             Sign Up
-        </button>
+        </a>
     </div>
 </div>
 
