@@ -18,11 +18,6 @@
 </head>
 <body class="d-flex justify-content-center align-items-center">
 
-<%--<h1><%= "Hello World!" %>--%>
-<%--</h1>--%>
-<%--<br/>--%>
-<%--<a href="hello-servlet">Hello Servlet</a>--%>
-
 <div class="container my-5 p-5 w-75 justify-content-center align-items-center">
     <div class="container p-4 col-4 w-100 d-flex justify-content-center align-items-center">
         <a href="sign-in.jsp" type="button" class="btn btn-primary my-4 w-75 btn-lg btn-block" aria-pressed="true">
