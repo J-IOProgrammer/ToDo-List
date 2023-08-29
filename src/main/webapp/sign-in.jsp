@@ -1,4 +1,4 @@
-<%--
+<%@ page import="io.jio.todolist.model.Person" %><%--
   Created by IntelliJ IDEA.
   User: pc1
   Date: 8/29/2023
@@ -26,7 +26,7 @@
         String password = "";
         if (person != null) {
             username = person.getUsername();
-            password = person.getLastName();
+            password = person.getPassword();
         }
     %>
     <h1>Enter your information</h1>
