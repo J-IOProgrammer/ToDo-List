@@ -1,4 +1,5 @@
-<%@ page import="io.jio.todolist.model.Person" %><%--
+<%@ page import="io.jio.todolist.dto.PersonLoginDto" %>
+<%--
   Created by IntelliJ IDEA.
   User: pc1
   Date: 8/29/2023
@@ -21,12 +22,13 @@
 <body class="d-flex justify-content-center align-items-center">
 
 <div class="container row py-3 m-5 d-flex justify-content-center align-items-center">
-    <% Person person = (Person) request.getAttribute("person");
+    <%
+        PersonLoginDto loginDto = (PersonLoginDto) request.getAttribute("loginDto");
         String username = "";
         String password = "";
-        if (person != null) {
-            username = person.getUsername();
-            password = person.getPassword();
+        if (loginDto != null) {
+            username = loginDto.getUsername();
+            password = loginDto.getPassword();
         }
     %>
     <h1>Enter your information</h1>
